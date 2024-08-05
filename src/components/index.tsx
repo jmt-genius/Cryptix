@@ -2,7 +2,8 @@ import Heading from "./Heading";
 import Text from "./Text";
 import SubHeading from "./SubHeading"
 import { ThemeProvider } from "./ThemeProvider";
-import SideBar from "./SideBar2";
+import { CardComponent } from "./CardComponent";
+import SideBar from "./SideBar";
 
 
-export {Heading,Text,SubHeading }
+export {Heading, Text,SubHeading, ThemeProvider }
