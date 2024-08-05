@@ -70,11 +70,13 @@ import {
   TooltipTrigger,
   TooltipProvider
 } from "@/components/ui/tooltip"
+import { SideBar } from "@/components"
 
 export default function Dashboard() {
   return (
     <div>
       Lol
+      <SideBar/>
     </div>
   )
 }
