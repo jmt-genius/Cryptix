@@ -24,7 +24,7 @@ export default function RootLayout({
           >
             <div className="flex">
               <SideBar />
-              <body className={`${inter.className} p-8`}>
+              <body className={`${inter.className} p-8 pl-32`}>
                 {children}
               </body>
             </div>

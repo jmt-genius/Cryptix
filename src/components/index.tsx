@@ -6,4 +6,4 @@ import { CardComponent } from "./CardComponent";
 import SideBar from "./SideBar";
 
 
-export {Heading, Text,SubHeading, ThemeProvider }
+export {Heading, Text,SubHeading, ThemeProvider, SideBar, CardComponent }
