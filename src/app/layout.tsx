@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider, SideBar } from "@/components"
+import { ThemeProvider, SideBar, NavBar } from "@/components"
 const inter = Inter({ subsets: ["latin"] });
+import { ToastContainer, toast } from 'react-toastify';
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,12 +19,14 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <ThemeProvider
             attribute="class"
-            defaultTheme="dark"
+            defaultTheme="light"
             enableSystem
             disableTransitionOnChange
           >
-            <div className="flex">
-              <SideBar />
+             <NavBar />   
+            <div className="">
+           
+            <ToastContainer />
               <body className={`${inter.className} p-8 pl-32`}>
                 {children}
               </body>
